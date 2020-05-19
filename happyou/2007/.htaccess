@@ -1,0 +1,4 @@
+order deny,allow
+deny from all
+allow from 131.113.
+allow from 131.27.

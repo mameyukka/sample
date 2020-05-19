@@ -1,0 +1,225 @@
+html {
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0;
+}
+
+body {
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0;
+
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: unset;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.module-reset div, .module-reset span, .module-reset applet, .module-reset object, .module-reset iframe, .module-reset h1, .module-reset h2, .module-reset h3, .module-reset h4, .module-reset h5, .module-reset h6, .module-reset p, .module-reset blockquote, .module-reset pre, .module-reset a, .module-reset abbr, .module-reset acronym, .module-reset address, .module-reset big, .module-reset cite, .module-reset code, .module-reset del, .module-reset dfn, .module-reset em, .module-reset img, .module-reset ins, .module-reset kbd, .module-reset q, .module-reset s, .module-reset samp, .module-reset small, .module-reset strike, .module-reset strong, .module-reset sub, .module-reset sup, .module-reset tt, .module-reset var, .module-reset b, .module-reset u, .module-reset i, .module-reset center, .module-reset dl, .module-reset dt, .module-reset dd, .module-reset ol, .module-reset ul, .module-reset li, .module-reset fieldset, .module-reset form, .module-reset label, .module-reset legend, .module-reset table, .module-reset caption, .module-reset tbody, .module-reset tfoot, .module-reset thead, .module-reset tr, .module-reset th, .module-reset td, .module-reset article, .module-reset aside, .module-reset canvas, .module-reset details, .module-reset embed, .module-reset figure, .module-reset figcaption, .module-reset footer, .module-reset header, .module-reset hgroup, .module-reset menu, .module-reset main, .module-reset nav, .module-reset output, .module-reset ruby, .module-reset section, .module-reset summary, .module-reset time, .module-reset mark, .module-reset audio, .module-reset video {
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0;
+}
+
+.module-reset ol, .module-reset ul {
+  list-style: none;
+}
+
+.module-reset table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.module-reset caption, .module-reset th, .module-reset td {
+  font-weight: normal;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.module-reset q, .module-reset blockquote {
+  quotes: none;
+}
+
+.module-reset q:before, .module-reset blockquote:before, .module-reset q:after, .module-reset blockquote:after {
+  content: '';
+  content: none;
+}
+
+.module-reset a img {
+  border: none;
+}
+
+.module-reset article, .module-reset aside, .module-reset details, .module-reset figcaption, .module-reset figure, .module-reset footer, .module-reset header, .module-reset hgroup, .module-reset menu, .module-reset main, .module-reset nav, .module-reset section, .module-reset summary {
+  display: block;
+}
+
+.module-reset div, .module-reset p, .module-reset span, .module-reset h1, .module-reset h2, .module-reset h3, .module-reset h4, .module-reset h5, .module-reset li, .module-reset dt, .module-reset dd, .module-reset th, .module-reset td {
+  max-height: 999999px;
+}
+
+.module-reset em {
+  font-style: italic;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  line-height: 1;
+  text-align: center;
+}
+
+.device-js-off #global-wrapper {
+  overflow: hidden;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  font: 12px/1 'Noto Sans JP', Helvetica, Arial, '\30E1\30A4\30EA\30AA', Meiryo, '\30D2\30E9\30AE\30CE\89D2\30B4\20\50\72\6F\20\57\33', 'Hiragino Kaku Gothic Pro', sans-serif;
+  color: #333;
+  background: #fff;
+}
+
+input, textarea {
+  font-family: 'Noto Sans JP', Helvetica, Arial, '\30E1\30A4\30EA\30AA', Meiryo, '\30D2\30E9\30AE\30CE\89D2\30B4\20\50\72\6F\20\57\33', 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-weight: 400;
+  font-style: normal;
+
+  font-display: swap;
+  src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+  font-style: normal;
+
+  font-display: swap;
+  src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-weight: 700;
+  font-style: normal;
+
+  font-display: swap;
+  src: url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.otf) format('opentype');
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .device-js-on body {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .device-js-on body {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .device-js-on body {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .device-js-on body {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .device-js-on body {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .device-js-on body {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .device-js-on body {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .device-js-on body {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .device-js-on body {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .device-js-on body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .device-js-on body {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .device-js-on body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .device-js-on body {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .device-js-on body {
+    font-size: 12px;
+  }
+}

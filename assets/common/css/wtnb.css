@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+
+/*　Googleカレンダー埋め込み  */
+.g-calendar {
+    text-align:center;
+    }
+
+.g-calendar iframe {
+    width:100%;
+    max-width:800px;
+    height:400px;
+    }
+
+@media (min-width: 768px) {
+    
+.g-calendar iframe {
+    height:600px;
+    }
+        
+}
+
+.inner_title{
+     position: absolute;
+     top:90%;
+     left:50%;
+     transform:translate(-50%, -50%);
+     width: 100%;
+     text-align:center;
+     z-index:999;
+}
+
+.work-box > img {
+    /*background-color: black;*/
+    /*padding: 4px;*/
+    border-top: solid 1px #ccc;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+
+h9 {
+    /*border-bottom: 1px solid black;*/
+    font-size: 15px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+	
+
+
+/* ------------------------------------------------------------------------------
+	Works
+-------------------------------------------------------------------------------*/
+#works {
+    background-color: #ffffff;
+}
+
+.work {
+	border:2px solid white;
+    /*-moz-box-shadow: 0 0 0 1px #fff;*/
+    /*-webkit-box-shadow: 0 0 0 1px #fff;*/
+    /*box-shadow: 0 0 0 1px #fff;*/
+    overflow: hidden;
+    position: relative;
+}
+
+    .work img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .work .overlay {
+        /*background: rgba(232, 83, 79, 0.9);*/
+        /*background: rgba(0, 0, 85, 0.9);*/
+        background: rgba(40,40,40,0.9);
+        height: 100%;
+        /*height: 0;*/
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        /*width:0;*/
+        -moz-transition: opacity, 0.3s;
+        -o-transition: opacity, 0.3s;
+        -webkit-transition: opacity, 0.3s;
+        transition: opacity, 0.3s;
+    }
+
+    .work .overlay-caption {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 100%;
+        
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    
+            }
+
+    .work h5, .work p, .work ul, .work img {
+        -moz-transition: all, 0.2s;
+        -o-transition: all, 0.2s;
+        -webkit-transition: all, 0.2s;
+        transition: all, 0.2s;
+    }
+
+    .work h5, .work ul, .work p {
+        color: #fff;
+        margin: 0;
+        opacity: 0;
+        font-size: 12px;
+    }
+
+    .work h5 {
+        margin-bottom: 5px;
+        -moz-transform: translate3d(0, -200%, 0);
+        -ms-transform: translate3d(0, -200%, 0);
+        -webkit-transform: translate3d(0, -200%, 0);
+        transform: translate3d(0, -200%, 0);
+        font-weight: normal;
+    }
+
+    .work p, .work ul {
+        -moz-transform: translate3d(0, 200%, 0);
+        -ms-transform: translate3d(0, 200%, 0);
+        -webkit-transform: translate3d(0, 200%, 0);
+        transform: translate3d(0, 200%, 0);
+    }
+
+    .work ul {
+        text-align: left;
+        padding-left: 35%;
+    }
+
+        .work ul li {
+            list-style: circle;
+        }
+
+
+
+.work-box:hover img {
+    backface-visibility: hidden;
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+        
+}
+@media screen and (min-width:768px){
+    .work-box:hover .overlay {
+        opacity: 1;
+        /*width:100%;*/
+        height: 100%;
+    }
+}
+
+
+    .work-box:hover .overlay h5, .work-box:hover .overlay ul, .work-box:hover .overlay p {
+        opacity: 1;
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+.flex-control-paging li a {
+    background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
+}
+
+    .flex-control-paging li a.flex-active {
+        background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
+    }
+
+/* ------------------------------------------------------------------------------
+	Work animation
+-------------------------------------------------------------------------------*/
+.work:nth-child(1) {
+    -moz-animation-delay: 0.1s;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.work:nth-child(2) {
+    -moz-animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.work:nth-child(3) {
+    -moz-animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.work:nth-child(4) {
+    -moz-animation-delay: 0.4s;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.work:nth-child(5) {
+    -moz-animation-delay: 0.8s;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+.work:nth-child(6) {
+    -moz-animation-delay: 0.7s;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+
+.work:nth-child(7) {
+    -moz-animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.work:nth-child(8) {
+    -moz-animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.animated {
+    visibility: visible;
+}

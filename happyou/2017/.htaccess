@@ -1,0 +1,7 @@
+order deny,allow
+deny from all
+<Files ~ ".(jpg)$">
+    allow from all
+</Files>
+allow from 131.113.
+allow from 131.27.

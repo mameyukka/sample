@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/**********************************/
+/* print */
+/**********************************/
+#global-wrapper {
+  margin: 0 auto !important;
+  width: 1040px !important;
+}
+#global-wrapper .print-pageBreak {
+  page-break-before: always;
+}
+#global-nav,
+#global-nav2,
+#global-pagetop {
+  display: none !important;
+}
+#global-container {
+  padding-right: 0 !important;
+}
+#global-content {
+  min-width: auto !important;
+  width: 100% !important;
+}
