@@ -20,6 +20,14 @@
         
 }
 
+.i {
+  background-color: #FFFFFF;
+}
+
+.i :hover {
+  opacity: 0.5;
+}
+
 .inner_title{
      position: absolute;
      top:90%;
@@ -27,7 +35,6 @@
      transform:translate(-50%, -50%);
      width: 100%;
      text-align:center;
-     z-index:999;
 }
 
 .work-box > img {
