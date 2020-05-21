@@ -228,7 +228,7 @@
                     </div>
 
                     <div class=" col-sm-4 col-6  work">
-                        <a href=""data-href="./kikai/water.html" data-toggle="modal"data-target="#water" Class="work-box">
+                        <a href=""data-href="./kikai/syasyutu.html" data-toggle="modal"data-target="#syasyutu" Class="work-box">
                             <IMG Src="./assets/common/images/water1.jpg" Alt="ウォータ">
 							<div class="inner_title"><h9>射出成型機</h9>
 							</div>
@@ -680,6 +680,21 @@
         </div>
     </div>
 
+    <div class="modal fade" id="syasyutu" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-light">
+                    <h5 class="modal-title" id="news-title">射出成型機| Varuna | ソディック</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="news-content2">
+                </div>
+            </div>
+        </div>
+    </div>
+
   <script src="./assets/common/js/bootstrap.min.js"></script>
   <script src="./assets/common/js/popper.min.js"></script>
   <script src="./assets/common/js/index_02.js"></script>
@@ -746,6 +761,10 @@
                 $(this).find(".news-content2").load(link.attr("data-href"));
             });
             $("#water").on("show.bs.modal", function (e) {
+                var link = $(e.relatedTarget);
+                $(this).find(".news-content2").load(link.attr("data-href"));
+            });
+            $("#syasyutu").on("show.bs.modal", function (e) {
                 var link = $(e.relatedTarget);
                 $(this).find(".news-content2").load(link.attr("data-href"));
             });
